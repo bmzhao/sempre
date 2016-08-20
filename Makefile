@@ -16,3 +16,6 @@ prepare:
 
 start:
 	docker run -it $(NAME):latest /bin/bash
+
+startMounted:
+	docker run -it -v /Users/brianzhao/Documents/IntellijProjects/sempre/freebase:/root/app/freebase:ro $(NAME):latest /bin/bash
