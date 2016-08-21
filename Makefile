@@ -1,4 +1,4 @@
-export NAME = sempre-testing
+export NAME = bmzhao/sempre-testing
 
 build:
 	docker build -t $(NAME):latest .
